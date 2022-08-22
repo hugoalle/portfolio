@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'mazreha';
+  src: url("ressources/fonts/Mazreha-5146L.ttf") format("truetype");
+}
+
+body {
+  background-color: #EFEAE4;
+  font-family: mazreha;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapNameWelcome {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  
+  position: relative;
+  font-size: 9em;
+  color: black;
+  left: 2.5vw;
+  top: -10vh;
+}
+
+#welcome {
+  position: relative;
+  color: black;
+  font-size: 5em;
+  left: 15vw;
+  top: -35vh;
+}
+
+#webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}

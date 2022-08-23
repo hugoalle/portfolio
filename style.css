@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #EFEAE4;
+  background-color: #E7DCCE;
   font-family: mazreha;
   margin: 0;
   padding: 0;
@@ -13,12 +13,14 @@ body {
 #wrapNameWelcome {
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  height:100vh;
 }
 
 #name {
   
   position: relative;
-  font-size: 9em;
+  font-size: 5em;
   color: black;
   left: 2.5vw;
   top: -10vh;
@@ -27,7 +29,7 @@ body {
 #welcome {
   position: relative;
   color: black;
-  font-size: 5em;
+  font-size: 3em;
   left: 15vw;
   top: -35vh;
 }
